@@ -55,6 +55,3 @@ nav > a {
     margin: 5px;
 }
 
-nav ::after {
-    background-color: black;
-}
