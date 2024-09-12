@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(115, 123, 131, 0.445);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        td:nth-child(2) {
+            text-align: right;
+        }
+
+        thead > tr > th {
+            position:sticky ;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        thead, tfoot {
+            background-color: rgba(40, 25, 109, 0.205);
+            color: rgb(255, 255, 255);
+        }
+
+        tbody > tr:nth-child(odd) {
+                background-color: rgb(255, 255, 255);
+                
+        }
+        tbody > tr:nth-child(even) {
+                background-color: rgb(175, 175, 175);
+        }
+        thead {
+            background-color: rgb(66, 66, 66);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDE
+        TABLE  
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption> População das unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 519 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td>31 188 798</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 254 921</td>        
+            <tr>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+            </tr>
+            
+            <tr>
+                <td>Paraná</td>
+                <td>11 229 915</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 824 665</td> 
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 233 656</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8 664 306</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 058 44</td> 
+            <tr>
+                <td>Santa Catarina</td>
+                <td>8 058 447</td>
+            </tr>
+                
+            <tr>
+                <td>Goiás</td>
+                <td>4 281 209</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>4 145 040</td>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>45 519 049</td>
+                </tr>
+                <tr>
+                    <td>Minas gerais</td>
+                    <td>31 188 798</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>17 254 921</td>        
+                <tr>
+                    <td>Bahia</td>
+                    <td>14 850 513</td>
+                </tr>
+                
+                <tr>
+                    <td>Paraná</td>
+                    <td>11 229 915</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td>11 824 665</td> 
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>9 233 656</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>8 664 306</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8 058 44</td> 
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>8 058 447</td>
+                </tr>
+                    
+                <tr>
+                    <td>Goiás</td>
+                    <td>4 281 209</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>4 145 040</td>                
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td><strong>212 583 720</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
