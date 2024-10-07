@@ -45,9 +45,10 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: rgba(87, 87, 87, 0.767);
     color: white;
     border-top: 2px solid gray;
+    border-radius: 8px;
 }
 
 menu > ul > li > a:hover {
