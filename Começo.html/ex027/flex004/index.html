@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible box</title>
+    <title>Flexible Box</title>
     <style>
         div.container {
             background-color: lightcoral;
-            height: 30px;
+            height: 100px;
             display: flex;
-            flex-flow: column nowrap;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
         }
 
         div.item {
             background-color: skyblue;
             border: 1px solid black;
             text-align: center;
-            flex: auto;
         }
-
-
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">Exemplo de blocoA</div>
-        <div class="item">Exemplo de blocoB</div>
-        <div class="item">Exemplo de blocoC</div>
-        <div class="item">Exemplo de blocoD</div>
-        <div class="item">Exemplo de blocoE</div>
-        <div class="item">Exemplo de blocoF</div>
-        <div class="item">Exemplo de blocoG</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
     </div>
 </body>
 </html>
