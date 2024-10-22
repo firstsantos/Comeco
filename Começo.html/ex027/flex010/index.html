@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible box</title>
+    <title>Flexible Box</title>
     <style>
         div.container {
-            background-color: lightsalmon;
+            background-color: lightcoral;
             display: flex;
             flex-flow: row wrap;
+
         }
 
-        div.item {
+        div.item  {
             background-color: skyblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
+            flex-basis: 250px;
+            flex-shrink: 0;
         }
     </style>
 </head>
@@ -23,11 +25,14 @@
     <div class="container">
         <div class="item">A</div>
         <div class="item">B</div>
-        <div class="item">Cabeça de telha, olha a pedra</div>
+        <div class="item">C</div>
         <div class="item">D</div>
-        <div class="item">Estude para não ser burro igual  9 dedo</div>
+        <div class="item">E</div>
         <div class="item">F</div>
-        <div class="item">Galinhada é bom para um "caramba"</div>
-    </div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+    </div>    
 </body>
 </html>
